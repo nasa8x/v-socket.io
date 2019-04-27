@@ -5,7 +5,7 @@ Socket.io bindings for Vue.js and Vuex
 ## Get Started
 
 ```
-npm i v-socket.io
+npm i v-socket
 ```
 
 ```
@@ -14,7 +14,7 @@ import Vue from 'vue'
 import App from './app.vue'
 import store from './store'
 
-import SocketIO from 'v-socket.io';
+import SocketIO from 'v-socket';
 
 Vue.use(new SocketIO("http://localhost:8081"));
 
